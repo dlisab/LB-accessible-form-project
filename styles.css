@@ -84,8 +84,11 @@ a {
 
 /* ---- Layout Containers ---- */
 
-
-.fieldset {
+form {
+    margin: 10px;
+}
+.fieldset-form{
+    display: inline-block;
     border-style: none;
     margin: 5px;
 }
