@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/56962bec70.js" crossorigin="anonymous"></script>
 </head>
+<main>
+
 <body>
     <header>
         
@@ -35,20 +37,42 @@
                     <input type="text" id="city" name="user-city"></label>
 
                     <label for="state">State</label>
-			        <select id="state" name="state"><option value="Choose State">---</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
+			        <select id="state" name="state"><option value="Choose State">Choose State</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
 
                     <label for="zip">Zip Code</label>
                     <input type="text" id="zip" name="user-zip"></label>
                 </fieldset>
-            </div> 
-        </div>
-        <nav class="container">
-            <ul class="nav-flex">
-                <li><a href="index.html">Delivery</a></li>
-                <li><a>Billing</a></li>
-                <li><a>Review</a></li>
-            </ul>
-        </nav>
+            <fieldset>
+                <hr>
+                <legend>Newsletter</legend>
+                <p>Select the newsletters you would like to receive</p>
+                <input type="checkbox" id="newsletter" name="newsletter" value="HTML News">
+                <label for="newsletter"> HTML News</label><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="CSS News">
+                <label for="newsletter"> CSS News</label><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter" value="Javascript News">
+                <label for="newsletter"> Javascript News</label><br>
+
+                <p>Newsletters format</p>
+                <input type="radio" id="newsletter" name="newsletter" value="HTML">
+                <label for="newsletter">HTML</label><br>
+
+                <input type="radio" id="newsletter" name="newsletter" value="Plain text">
+                <label for="newsletter">Plain text</label><br>
+
+                <p>Other topics you'd like to hear about</p>
+                <label for="other-topics"></label>
+                <textarea id="other-topics" name="other-topics"></textarea>
+
+                
+
+                <div class="button">
+                <a href="default.asp" target="_blank">Sign Up</a>
+                </div>
+                <p>&copy; <em>The Code Review</em></p>
+            </fieldset>
+        </div> 
     </header>
-    <main>
-    </main>
+</main>
