@@ -35,14 +35,18 @@ p {
     color: #C7C7C7;
 }
 hr.style1 {
-	border-width: 10px black;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    border: 3px solid black;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 10px 0 10px;
+
 }
 hr.style2 {
-    border-width 2px black;
-    margin-top: 0;
-    padding-top: 0;
+    border: 2px solid black;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 10px 2em 10px;
+    padding-top: 5px;
     margin-bottom: 2em;
 }
 h1,
