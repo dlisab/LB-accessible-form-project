@@ -16,7 +16,11 @@ body {
 	color: #414042;
 	padding-bottom: 1.5em;
 }
-
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
 p {
 	font-size: .75em;
@@ -74,18 +78,53 @@ img {
 ==================================== */
 
 /* ---- Layout Containers ---- */
-.main {
-	width: 70%;
-	margin: 0 auto;
+
+
+
+
+.fieldset {
+    border-style: none;
 }
 .input-type{ 
 background-color: #CEEBF0; 
 padding: 0.5em;
 border: none;
 border-radius: 5px;
-
 }
-
+input, textarea {
+    display: block; 
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px; 
+    font-size: 18px;
+    color: #333;
+    
+}
+legend {
+    font-weight: 700;
+    font-size: 1.75;
+    margin-bottom: 5px;
+}
+label {
+    display: block; 
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+textarea {
+    height: 100px;
+}
+button {
+    width: 100%;
+    max-width: 430px;
+    padding: 12px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin: 1.5rem auto 2.5rem;
+    display: block;
+    cursor: pointer;
+    color: aqua;
+}
 /* ---- Page Elements ---- */
 
 
