@@ -83,8 +83,9 @@ img {
 
 .fieldset {
     border-style: none;
+    margin: 5px;
 }
-.input-type{ 
+.input-type { 
 background-color: #CEEBF0; 
 padding: 0.5em;
 border: none;
