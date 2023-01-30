@@ -245,14 +245,14 @@ hr.style2 {
     padding-top: 5px;
     margin-bottom: 2em;
 }
-.wrappper {
+.contact {
 	margin: 0 6em;
 }
 .form-field {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
-    margin-top: .5rem;
+    margin: .5rem 0 0 1em;
     font-size: .75em;
 }
 .contact-form input, textarea {
@@ -271,4 +271,16 @@ hr.style2 {
     margin-top: 1.5rem;
     font-size: 1.25em;
 
+}
+#state {
+    display: block; 
+    width: 100%;
+    margin: 8px 0 8px 375px;
+    padding: 20px 8px 20px 8px; 
+    font-size: .75em;
+    color:lightslategray;
+    background: #EFF3F8; 
+    border:none;
+    border-radius: 5px;
+}
 }
