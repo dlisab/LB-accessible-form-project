@@ -225,7 +225,7 @@ textarea {
   Media Queries desktop
 ==================================== */
 
-@media (min-width: 780px)
+@media (min-width: 768px)
 
 {
 
@@ -251,7 +251,7 @@ hr.style2 {
 .form-field {
     display: inline-flex;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
 }
@@ -267,7 +267,8 @@ hr.style2 {
     padding: 0.75em;
 }
 .contact-form label {
-    display: block;
+    display: inline-flex;
+    width: 50%;
     margin-top: 1.5rem;
     font-size: 1.25em;
 
