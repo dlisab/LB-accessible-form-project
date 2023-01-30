@@ -228,9 +228,6 @@ textarea {
 @media (min-width: 780px)
 
 {
-.wrappper {
-	margin: 0 5em;
-}
 
 
 hr.style1 {
@@ -247,5 +244,13 @@ hr.style2 {
     margin: 0 120px 2em 120px;
     padding-top: 5px;
     margin-bottom: 2em;
+}
+.wrappper {
+	margin: 0 6em;
+}
+form-field {
+    display: inline-block;
+    margin-top: .5rem;
+    font-size: .75em;
 }
 }
