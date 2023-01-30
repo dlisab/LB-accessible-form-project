@@ -218,14 +218,34 @@ textarea {
 
 
 
-/* ================================= 
-  Media Queries tablet
-==================================== */
+
 
 
 /* ================================= 
   Media Queries desktop
 ==================================== */
 
+@media (min-width: 780px)
+
+{
+.wrappper {
+	margin: 0 5em;
+}
 
 
+hr.style1 {
+    border: 3px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 120px 0 120px;
+
+}
+hr.style2 {
+    border: 2px solid #32414d;
+    border-left: 0;
+    border-right: 0;
+    margin: 0 120px 2em 120px;
+    padding-top: 5px;
+    margin-bottom: 2em;
+}
+}
