@@ -33,8 +33,9 @@ html {
 p {
     text-align: center;
     font-size: 1em;
-    padding: 30px 30px;
+    padding: 10px 0px;
     color: #C7C7C7;
+    margin-bottom: 1.25em;
 }
 .newsletter-container p {
     text-align: left;
@@ -74,10 +75,11 @@ a {
     text-decoration: none;
 }
 h2 {
-    font-size: 1em;
+    font-size: 1.25em;
     margin-top: 1em;
     font-weight: 800;
     text-align: center;
+   color: #2D3134;
 }
 h4 {
     font-size: .75em;
