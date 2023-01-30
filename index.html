@@ -14,18 +14,19 @@
 <main>
 
     <body>
-        <container>
+        <form action="index.html" method="post"></form>
+        <div class="container">
            <div class="title-container">
                 <h1>The Code Review</h1>
            </div>
                 <h2>Signup for our newsletter</h2>
-                <p>Get the latest news on how your code is doing right in your inbox</p>
+                <p class="title">Get the latest news on how your code is doing right in your inbox</p>
            
             <hr class="style1">
             <hr class="style2">
-        </container>
+        </div>
         <form>
-            <fieldset-form>
+            <fieldset style="border:none">
                 <div class="contact-form">
                     <legend>Contact Information</legend>
                     <label for="name">Full name</label>
@@ -49,42 +50,42 @@
                     <label for="zip">Zip Code </label>
                     <input type="text" id="zip" name="user-zip">
                 </div>
-            </fieldset-form>
+            </fieldset>
            
                 <hr>
-            <fieldset-form>
-                    <div class="newsletter">
-                        <legend>Newsletter</legend>
-                        <p>Select the newsletters you would like to receive</p>
+            <fieldset style="border:none">
+
+                <legend>Newsletter:</legend>
                         
-                        <label for="newsletter">HTML News</label>
-                        <input type="checkbox" id="newsletter" name="newsletter" value="HTML_News"><br>
+                        <p class="format">Select the newsletters you would like to receive</p>
+                        
+                            <input type="checkbox" id="HTML_News" value="HTML_News" name="newsletter_type" >
+                            <label for="newsletter_type">HTML News</label><br>
 
-                        <label for="newsletter"> CSS News</label>
-                        <input type="checkbox" id="newsletter" name="newsletter" value="CSS News"><br>
+                            <input type="checkbox" id="newsletter" value="CSS News" name="newsletter_type" >
+                            <label for="newsletter_type"> CSS News</label><br>
 
-                        <label for="newsletter"> Javascript News</label>
-                        <input type="checkbox" id="newsletter" name="newsletter" value="Javascript News"><br>
+                            <input type="checkbox" id="newsletter" value="Javascript News" name="newsletter_type">
+                            <label for="newsletter_type"> Javascript News</label><br>
 
-                        <p>Newsletters format</p>
-                        <label for="newsletter">HTML</label>
-                        <input type="radio" id="newsletter" name="newsletter" value="HTML"><br>
+                            <p>Newsletters format</p>
+                            <input type="radio" id="newsletter" value="HTML" name="newsletter_type">
+                           <label for="newsletter_type">HTML</label><br>
 
-                        <div class="check"><label for="newsletter">Plain text</label>
-                        <input type="radio" id="newsletter" name="newsletter" value="Plain text"><br>
+                            <input type="radio" id="newsletter" value="Plain text" name="newsletter_type">
+                            <label for="newsletter_type">Plain text</label><br>
 
-                        <p>Other topics you'd like to hear about</p>
-                        <div class="check"></div><label for="other-topics"></label>
-                        <textarea id="other-topics" name="other-topics"></textarea>
+                            <p>Other topics you'd like to hear about</p>
+                            <textarea id="other-topics" name="other-topics"></textarea>
 
-                    </div>
+             </fieldset>
 
-                <form action="button">
+                <div class="button">
                 <a href="default.asp" target="_blank">Sign Up</a>
                 </div>
                 <p>&copy; <em>The Code Review</em></p>
             
-            </fieldset-form>
+          
     </form>
     </body>
     </main>

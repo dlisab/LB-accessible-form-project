@@ -16,10 +16,10 @@ html {
 .container {
     max-width: 860px;
     margin: 0 auto;
-    padding: 1rem;
+    
 }
 .title-container {
-    background-color: #2D3134;
+    background-color: #32414d;
 }
 .title-container h1 {
     text-transform: uppercase;
@@ -29,20 +29,30 @@ html {
     font-size: 1.25em;
     padding: 1em
 }
-
+.title p {
+    text-align: left;
+    font-size: .85em;
+}
 p {
-    text-align: center;
+    text-align: left;
+    font-size: .85em;
+    padding: 10px 0px;
+    color: #C7C7C7;
+    margin-bottom: 1.25em;
+}
+.newsletter p {
+    text-align: left;
     font-size: 1em;
     padding: 10px 0px;
     color: #C7C7C7;
     margin-bottom: 1.25em;
 }
-.newsletter-container p {
-    text-align: left;
-    padding-left: 0;
-    font-size: .75em;
-
+.format p {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
 }
+
 .newsletter-container {
     display: inline-block;
     border-style: none;
@@ -53,14 +63,14 @@ hr {
     margin-bottom: 2em;
 }
 hr.style1 {
-    border: 3px solid #2D3134;
+    border: 3px solid #32414d;
     border-left: 0;
     border-right: 0;
     margin: 0 10px 0 10px;
 
 }
 hr.style2 {
-    border: 2px solid #2D3134;
+    border: 2px solid #32414d;
     border-left: 0;
     border-right: 0;
     margin: 0 10px 2em 10px;
@@ -104,17 +114,13 @@ h3 {
 form {
     margin: 10px;
 }
-.fieldset-form{
-    display: inline-block;
-    border-style: none;
-    margin: 5px;
+.fieldset{
+    border: none;
+    margin: 10px;
 }
-.input-type { 
-padding: 0.5em;
-border: none;
-border-radius: 5px;
-}
-form input, textarea {
+
+
+.contact-form input, textarea {
     display: block; 
     width: 100%;
     margin: 5px 0;
@@ -125,18 +131,21 @@ form input, textarea {
     border-radius: 5px;
     padding: 0.75em;
 }
+.contact-form label {
+    display: block; 
+    margin-top: 1.5rem;
+    font-size: .75em;
+}
 input:focus, textarea:focus {
     outline: 2px solid #2D3134;
 }
-.newsletter-container input, textarea {
-    display: block; 
-    margin: 5px 0;
-    padding: 8px; 
-    font-size: 18px;
-    background: #EFF3F8; 
-    border:none;
-    border-radius: 5px;
-    padding: 0.75em;
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  width: 5%;
+}
+.newsletter_type {
+    width: 95%;
 }
 
 
@@ -146,8 +155,8 @@ legend {
     margin-bottom: 5px;
 }
 label {
-    display: block; 
-    margin-top: 1.5rem;
+    display: inline-block; 
+    margin-top: .5rem;
     font-size: .75em;
 }
 
@@ -167,16 +176,24 @@ label {
     border:none;
     border-radius: 5px;
 }
-
+#other-topics 
+{
+    padding-bottom: 0;
+}
 textarea {
     height: 100px;
 }
 
-
-.input checkbox, radio {
-    padding: 0;
+.newsletter label{
+    display: inline-block
+    width   50%;
  } 
 
+#checkbox, #radio {
+    padding: 0;
+    display: inline-block
+    width   50%;
+ } 
 .button {
     padding: 19px 39px 18px 39px;
     background-color: teal;
