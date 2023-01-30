@@ -4,7 +4,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 2px;
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
 
@@ -29,16 +29,19 @@ html {
     font-size: 1.25em;
     padding: 1em
 }
-.title p {
-    text-align: left;
-    font-size: .85em;
-}
+
 p {
     text-align: left;
     font-size: .85em;
     padding: 10px 0px;
     color: #C7C7C7;
+    margin-bottom: .25em;
+}
+.title p {
+    font-size: .85em;
+    text-align: center;
     margin-bottom: 1.25em;
+    padding: 14px 10px;
 }
 .newsletter p {
     text-align: left;
@@ -50,7 +53,8 @@ p {
 .format p {
     padding-top: 1em;
     padding-bottom: 0.5em;
-    margin-bottom: 0;
+    padding-left: 10px;
+    margin-bottom: .25em;
 }
 
 .newsletter-container {
