@@ -251,13 +251,13 @@ hr.style2 {
 .form-field {
     display: inline-flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
 }
 .contact-form input, textarea {
     display: inline-flex;
-    width: 50%;
+    width: 100%;
     margin: 5px 0;
     padding: 8px;
     font-size: 18px;
@@ -276,12 +276,16 @@ hr.style2 {
 #state {
     display: block; 
     width: 100%;
-    margin: 8px 0 8px 375px;
+    margin: 8px 0 8px 0;
     padding: 20px 8px 20px 8px; 
     font-size: .75em;
     color:lightslategray;
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
+}
+#zip {
+    width: 50%;
+    margin-right: 8.5em;
 }
 }
