@@ -155,8 +155,19 @@ form {
  .contact-form input:focus,
   .contact-form input:active {
     background-color: rgb(221, 235, 216);
-    transition: none;
+    transition: fade;
   }
+
+  #state input:hover {
+    background-color: #F7FFEF;
+  }
+  
+ #state input:focus,
+ #state input:active {
+    background-color: rgb(221, 235, 216);
+    transition: fade;
+  }
+     
       
 input[type="radio"],
 input[type="checkbox"] {
