@@ -20,6 +20,7 @@ html {
 .container {
     max-width: 860px;
     margin: 0 auto;
+    background-color: #59837A;
 }
 .title-container {
     background-color: #32414d;
@@ -47,6 +48,8 @@ p {
     text-align: center;
     margin-bottom: 1.25em;
     padding: 14px 15px;
+    color: white;
+    font-weight: 200;
 }
 .copyright {
     text-align: center;
@@ -80,14 +83,14 @@ hr.style1 {
     border: 3px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 10px 0 10px;
+    margin: 0 0 0 0;
 
 }
 hr.style2 {
     border: 2px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 10px 2em 10px;
+    margin: 0 0 2em 0;
     padding-top: 5px;
     margin-bottom: 2em;
 }
@@ -103,7 +106,7 @@ h2 {
     margin-top: 1em;
     font-weight: 800;
     text-align: center;
-   color: #2D3134;
+   color: #white;
 }
 h4 {
     font-size: .75em;
@@ -246,7 +249,7 @@ textarea {
  } 
 .button {
     padding: 19px 39px 18px 39px;
-    background-color: teal;
+    background-color: #59837A;
     color: white;
     font-size: 18px;
     text-align: center;
