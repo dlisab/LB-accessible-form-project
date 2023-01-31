@@ -4,12 +4,12 @@
 
 * {
     margin: 0;
-    padding: 0 2px;
+    padding: 0 0px;
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
 
 }
-.form action {
+#form-action {
     margin:0;
 }
 html {
