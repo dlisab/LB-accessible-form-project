@@ -155,8 +155,8 @@ form {
   }
   
  .contact-form input:focus,
-  .contact-form input:active {
-    background-color: rgb(245, 218, 218);
+ .contact-form input:active {
+    background-color: rgb(251, 238, 238);
     transition: fade;
   }
 
@@ -166,7 +166,7 @@ form {
   
  #state input:focus,
  #state input:active {
-    background-color: rgb(221, 235, 216);
+    background-color: rgb(251, 238, 238);
     transition: fade;
   }
      
