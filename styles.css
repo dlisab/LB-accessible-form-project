@@ -148,6 +148,15 @@ form {
     border-radius: 5px;
     padding: 0.75em;
 }
+.input {
+    transition: all 0.5s ease;
+    background: red;
+    padding: 10px;
+  }
+  .input:hover {
+    background: green;
+    padding: 20px;
+  }
 .contact-form label {
     display: block; 
     margin-top: 1.5rem;
@@ -156,7 +165,7 @@ form {
 input:focus, textarea:focus {
     outline: 2px solid #2D3134;
 }
-.form-field input:hover {
+.email input:hover {
 color:#53a7ea;
 }
 input[type="radio"],
