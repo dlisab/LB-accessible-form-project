@@ -20,7 +20,6 @@ html {
 .container {
     max-width: 860px;
     margin: 0 auto;
-    
 }
 .title-container {
     background-color: #32414d;
@@ -159,13 +158,21 @@ form {
     background-color: rgb(251, 238, 238);
     transition: fade;
   }
-
-  #state input:hover {
+  .contact-form textarea:hover {
+    background-color: #F7FFEF;
+  }
+  
+ .contact-form textarea:focus,
+ .contact-form textarea:active {
+    background-color: rgb(251, 238, 238);
+    transition: fade;
+  }
+  .form-field state:hover {
     background-color: #D6F4EE;
   }
   
- #state input:focus,
- #state input:active {
+ .form-field state:focus,
+ .form-field state:active {
     background-color: rgb(251, 238, 238);
     transition: fade;
   }
@@ -179,7 +186,6 @@ input[type="checkbox"] {
 .newsletter_type {
     width: 95%;
 }
-
 
 legend {
     font-weight: 700;
