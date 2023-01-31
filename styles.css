@@ -164,9 +164,9 @@ form {
     background-color: rgb(173, 173, 173);
     transition: background-color 0.5s ease;
     -webkit-transition: background-color 2s ease-out;
-  -moz-transition: background-color 2s ease-out;
-  -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
 }
 
   textarea#other-topics:hover {
@@ -288,14 +288,14 @@ hr.style1 {
     border: 3px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 120px 0 120px;
+    margin: 0 0 0 0;
 
 }
 hr.style2 {
     border: 2px solid #32414d;
     border-left: 0;
     border-right: 0;
-    margin: 0 120px 2em 120px;
+    margin: 0 0 2em 0;
     padding-top: 5px;
     margin-bottom: 2em;
 }
@@ -340,6 +340,6 @@ hr.style2 {
 }
 #zip {
     width: 50%;
-    margin-right: 8.5em;
+    margin-right: 15.5em;
 }
 }
