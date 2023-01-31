@@ -158,12 +158,12 @@ form {
     background-color: rgb(251, 238, 238);
     transition: fade;
   }
-  textarea#othertopics:hover {
-    background-color: #F7FFEF;
+  textarea#other-topics:hover {
+    background-color: #D6F4EE;
   }
   
- textarea#othertopics:focus,
- textarea#othertopics:active {
+ textarea#other-topics:focus,
+ textarea#other-topics:active {
     background-color: rgb(251, 238, 238);
     transition: fade;
   }
