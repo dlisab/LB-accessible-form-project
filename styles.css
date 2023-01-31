@@ -155,13 +155,13 @@ form {
     padding: 0.75em;
 }
 .contact-form input:hover {
-    background-color: #D6F4EE;
+    background-color: #C9E0DB;
     cursor: pointer;
   }
   
  .contact-form input:focus,
  .contact-form input:active {
-    background-color: rgb(251, 238, 238);
+    background-color: rgb(173, 173, 173);
     transition: background-color 0.5s ease;
     -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
@@ -170,7 +170,7 @@ form {
 }
 
   textarea#other-topics:hover {
-    background-color: #D6F4EE;
+    background-color:#C9E0DB;
   }
   
  textarea#other-topics:focus,
@@ -179,7 +179,7 @@ form {
     transition: background-color 0.5s ease;
   }
   select#state:hover {
-    background-color: #D6F4EE;
+    background-color: #C9E0DB;
   }
   
   select#state focus,
