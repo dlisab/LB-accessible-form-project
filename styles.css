@@ -9,6 +9,9 @@
     font-family: 'PT Serif', serif;
 
 }
+.form action {
+    margin:0;
+}
 html {
     font-size: 1.25em
 }
@@ -120,6 +123,7 @@ h3 {
 
 form {
     margin: 10px;
+    margin-bottom: 5em;
 }
 .fieldset{
     border: none;
