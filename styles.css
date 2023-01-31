@@ -148,12 +148,12 @@ form {
     border-radius: 5px;
     padding: 0.75em;
 }
-.input:hover {
+.contact-form input:hover {
     background-color: #004369;
   }
   
-  .input:focus,
-  .input:active {
+ .contact-form input:focus,
+  .contact-form input:active {
     background-color: black;
     transition: none;
   }
@@ -191,7 +191,7 @@ label {
     width: 100%;
     margin: 8px 0;
     padding: 20px 8px 20px 8px; 
-    font-size: 1em;
+    font-size: .65em;
     color:lightslategray;
     background: #EFF3F8; 
     border:none;
