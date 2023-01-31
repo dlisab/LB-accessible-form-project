@@ -148,7 +148,16 @@ form {
     border-radius: 5px;
     padding: 0.75em;
 }
-
+.input:hover {
+    background-color: #004369;
+  }
+  
+  .input:focus,
+  .input:active {
+    background-color: black;
+    transition: none;
+  }
+      
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
