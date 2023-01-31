@@ -9,8 +9,8 @@
     font-family: 'PT Serif', serif;
 
 }
-#form-action {
-    margin: 0;
+.fieldset {
+    border-style: none;
 }
 html {
     font-size: 1.25em
