@@ -9,8 +9,9 @@
     font-family: 'PT Serif', serif;
 
 }
-.fieldset {
-    border-style: none;
+.contact {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 html {
     font-size: 1.25em
