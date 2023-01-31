@@ -154,7 +154,7 @@ form {
   
  .contact-form input:focus,
   .contact-form input:active {
-    background-color: black;
+    background-color: rgb(221, 235, 216);
     transition: none;
   }
       
