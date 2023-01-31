@@ -151,13 +151,19 @@ form {
 }
 .contact-form input:hover {
     background-color: #D6F4EE;
+    cursor: pointer;
   }
   
  .contact-form input:focus,
  .contact-form input:active {
     background-color: rgb(251, 238, 238);
     transition: background-color 0.5s ease;
-  }
+    -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
   textarea#other-topics:hover {
     background-color: #D6F4EE;
   }
@@ -175,6 +181,7 @@ form {
   select#state input:active {
     background-color: rgb(251, 238, 238);
     transition: background-color 0.5s ease;
+    
   }
      
       
@@ -219,6 +226,7 @@ label {
 #other-topics 
 {
     padding-bottom: 0;
+    margin-bottom: 10px;
 }
 textarea {
     height: 100px;
