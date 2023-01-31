@@ -32,7 +32,9 @@ html {
     font-size: 1.25em;
     padding: 1em
 }
-
+.note p{
+    font-size: .5em;
+}
 p {
     text-align: left;
     font-size: .85em;
