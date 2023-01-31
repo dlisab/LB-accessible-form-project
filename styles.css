@@ -143,7 +143,7 @@ form {
     width: 100%;
     margin: 5px 0;
     padding: 8px; 
-    font-size: 18px;
+    font-size: .75em;
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
@@ -309,7 +309,7 @@ hr.style2 {
     width: 100%;
     margin: 5px 0;
     padding: 8px;
-    font-size: 18px;
+    font-size: .75em;
     background: #EFF3F8;
     border: none;
     border-radius: 5px;
