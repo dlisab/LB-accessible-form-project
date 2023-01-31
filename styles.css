@@ -52,7 +52,7 @@ p {
 }
 .newsletter p {
     text-align: left;
-    font-size: 1em;
+    font-size: .85em;
     padding: 10px 0px;
     color: #C7C7C7;
     margin-bottom: 1.25em;
@@ -62,6 +62,8 @@ p {
     padding-bottom: 0.5em;
     padding-left: 10px;
     margin-bottom: .25em;
+    font-size: .85em;
+
 }
 
 .newsletter-container {
@@ -162,8 +164,8 @@ form {
     background-color: #F7FFEF;
   }
   
- #state input:focus,
- #state input:active {
+ select#state input:focus,
+ select#state input:active {
     background-color: rgb(221, 235, 216);
     transition: fade;
   }
