@@ -151,13 +151,12 @@ form {
 }
 .contact-form input:hover {
     background-color: #D6F4EE;
-    
   }
   
  .contact-form input:focus,
  .contact-form input:active {
     background-color: rgb(251, 238, 238);
-    transition: fade;
+    transition: background-color 0.5s ease;
   }
   textarea#other-topics:hover {
     background-color: #D6F4EE;
@@ -166,7 +165,7 @@ form {
  textarea#other-topics:focus,
  textarea#other-topics:active {
     background-color: rgb(251, 238, 238);
-    transition: fade;
+    transition: background-color 0.5s ease;
   }
   select#state:hover {
     background-color: #D6F4EE;
