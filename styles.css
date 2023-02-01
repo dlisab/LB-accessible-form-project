@@ -59,7 +59,7 @@ p {
     font-size: .85em;
     padding: 10px 0px;
     color: #C7C7C7;
-    margin-bottom: 1.25em;
+    margin-top: .5em;
 }
 .format  {
     padding-top: 1em;
@@ -194,6 +194,8 @@ input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
   width: 5%;
+  text-align: right;
+
 }
 .newsletter_type {
     width: 95%;
@@ -208,11 +210,14 @@ label {
     display: inline-block; 
     margin-top: .5rem;
     font-size: .75em;
+    padding-bottom: 3px;
 }
 
 ::placeholder {
     text-align: left;
     font-size: 1em;
+    text-align: right;
+
 }
 #zip {
     width: 50%;
@@ -227,6 +232,8 @@ label {
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
+    text-align: right;
+
 }
 #other-topics 
 {
@@ -325,6 +332,7 @@ hr.style2 {
     width: 50%;
     margin-top: 1.5rem;
     font-size: 1.25em;
+    align-items: flex-start;
 
 }
 #state {
