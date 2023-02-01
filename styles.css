@@ -130,7 +130,6 @@ h3 {
 
 form {
     margin: 0;
-    margin-bottom: 5em;
 }
 .fieldset{
     border: none;
@@ -356,5 +355,16 @@ hr.style2 {
     width: 50%;
     margin-right: 15.5em;
 }
+    
+.bar {
+    background-color:#59837A;
+    padding-top: 1.em;
+    padding-bottom: 1em;
+    width: 100%;
 
+}
+.copyright {
+    color: #ffffff;
+    padding-top: 28px;
+}
 }
