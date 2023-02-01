@@ -241,13 +241,13 @@ textarea {
 }
 
 .newsletter label{
-    display: inline-block
-    width:   50%;
+    display: inline-block;
+    width: 50%;
  } 
 
 #checkbox, #radio {
     padding: 0;
-    display: inline-block
+    display: inline-block;
     width:  50%;
  } 
 .button {
