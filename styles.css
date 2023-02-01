@@ -241,7 +241,7 @@ textarea {
 
 .newsletter label{
     display: inline-block;
-    width: 50%;
+    width: 100%;
  } 
 
 #checkbox, #radio {
