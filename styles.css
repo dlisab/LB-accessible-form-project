@@ -347,4 +347,10 @@ hr.style2 {
     width: 50%;
     margin-right: 15.5em;
 }
+.footer {
+    background-color: #59837A;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+
+}
 }
