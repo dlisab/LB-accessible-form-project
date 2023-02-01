@@ -106,7 +106,7 @@ h2 {
     margin-top: 1em;
     font-weight: 800;
     text-align: center;
-   color: #white;
+   color: #ffffff;
 }
 h4 {
     font-size: .75em;
@@ -203,7 +203,7 @@ input[type="checkbox"] {
 
 legend {
     font-weight: 700;
-    font-size: 1.75;
+    font-size: 1em;
     margin-bottom: 5px;
 }
 label {
@@ -330,7 +330,8 @@ hr.style2 {
 .contact-form label {
     display: inline-flex;
     width: 50%;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     font-size: 1.25em;
     align-items: stretch;
 
