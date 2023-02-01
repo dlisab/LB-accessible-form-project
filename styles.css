@@ -270,14 +270,15 @@ textarea {
     transition: none;
   }
       
-.footer {
+.bar {
     background-color:#59837A;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1.em;
+    padding-bottom: 1em;
 
 }
 .copyright {
     color: #ffffff;
+    padding-top: 28px;
 }
 /* ---- Page Elements ---- */
 
