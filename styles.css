@@ -163,10 +163,6 @@ form {
  .contact-form input:active {
     background-color: rgb(173, 173, 173);
     transition: background-color 0.5s ease;
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
 }
 
   textarea#other-topics:hover {
@@ -246,13 +242,13 @@ textarea {
 
 .newsletter label{
     display: inline-block
-    width   50%;
+    width:   50%;
  } 
 
 #checkbox, #radio {
     padding: 0;
     display: inline-block
-    width   50%;
+    width:  50%;
  } 
 .button {
     padding: 19px 39px 18px 39px;
