@@ -316,13 +316,13 @@ hr.style2 {
     justify-content: flex-start;
     width: 100%;
     margin: .5rem 0 0 1em;
-    padding-right: 12em;
     font-size: .75em;
 }
 .form-field-zip {
     display: inline-flex;
     width: 100%;
     margin: .5rem 0 0 1em;
+    padding-right: 12em;
     font-size: .75em;
 }
 .contact-form input, textarea {
