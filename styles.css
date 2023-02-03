@@ -154,13 +154,13 @@ form {
     padding: 0.75em;
 }
 .contact-form input:hover {
-    background-color: #C9E0DB;
+    background-color: #dfdddd;
     cursor: pointer;
   }
   
  .contact-form input:focus,
  .contact-form input:active {
-    background-color:#dfdddd;
+    background-color: #F5FFFE;
     transition: background-color 0.5s ease;
 }
 
