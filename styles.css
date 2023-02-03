@@ -207,7 +207,7 @@ label {
     font-size: .75em;
     padding-bottom: 3px;
 }
-placeholder::other-topics {
+#other-topics {
     text-align: left;
 
 }
