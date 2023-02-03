@@ -160,7 +160,7 @@ form {
   
  .contact-form input:focus,
  .contact-form input:active {
-    background-color: rgb(173, 173, 173);
+    background-color:#dfdddd;
     transition: background-color 0.5s ease;
 }
 
@@ -347,8 +347,7 @@ hr.style2 {
     margin: 8px 0 8px 0;
     padding: 20px 8px 20px 8px; 
     font-size: .75em;
-    color:#E7F2FD
-    ;
+    color:#E7F2FD;
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
