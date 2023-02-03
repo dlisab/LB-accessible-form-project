@@ -313,9 +313,10 @@ hr.style2 {
 }
 .form-field {
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     margin: .5rem 0 0 1em;
+    padding-right: 12em;
     font-size: .75em;
 }
 .form-field-zip {
