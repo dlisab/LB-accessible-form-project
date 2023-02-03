@@ -319,6 +319,7 @@ hr.style2 {
     width: 100%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
+    margin-right: 22em;
 }
 .contact-form input, textarea {
     display: inline-flex;
