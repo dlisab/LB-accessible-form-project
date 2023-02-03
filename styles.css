@@ -231,9 +231,7 @@ label {
 }
 #other-topics::placeholder 
 {
-    padding-bottom: 0;
-    margin-bottom: 10px;
-    text-align: left;
+ text-align: left;
 }
 textarea {
     height: 100px;
