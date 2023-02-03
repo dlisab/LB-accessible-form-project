@@ -229,10 +229,7 @@ label {
     text-align: right;
 
 }
-#other-topics::placeholder 
-{
- text-align: left;
-}
+
 textarea {
     height: 100px;
 }
@@ -292,7 +289,6 @@ textarea {
 
 {
 
-
 hr.style1 {
     border: 3px solid #32414d;
     border-left: 0;
@@ -351,7 +347,8 @@ hr.style2 {
     margin: 8px 0 8px 0;
     padding: 20px 8px 20px 8px; 
     font-size: .75em;
-    color:lightslategray;
+    color:#E7F2FD
+    ;
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
