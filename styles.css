@@ -67,7 +67,6 @@ p {
     padding-left: 10px;
     margin-bottom: .25em;
     font-size: .85em;
-
 }
 
 .newsletter-container {
@@ -141,6 +140,7 @@ form {
 .newsletter {
     border-style: none;
 }
+
 
 .contact-form input, textarea {
     display: block; 
@@ -276,6 +276,7 @@ textarea {
     color: #ffffff;
     padding-top: 28px;
 }
+
 /* ---- Page Elements ---- */
 
 
@@ -313,6 +314,12 @@ hr.style2 {
 .form-field {
     display: inline-flex;
     justify-content: space-between;
+    width: 100%;
+    margin: .5rem 0 0 1em;
+    font-size: .75em;
+}
+.form-field-zip {
+    display: inline-flex;
     width: 100%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
