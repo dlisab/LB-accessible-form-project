@@ -207,10 +207,6 @@ label {
     font-size: .75em;
     padding-bottom: 3px;
 }
-#other-topics {
-    text-align: left;
-
-}
 ::placeholder {
     text-align: left;
     font-size: 1em;
@@ -233,10 +229,11 @@ label {
     text-align: right;
 
 }
-#other-topics 
+#other-topics::placeholder 
 {
     padding-bottom: 0;
     margin-bottom: 10px;
+    text-align: left;
 }
 textarea {
     height: 100px;
