@@ -207,7 +207,10 @@ label {
     font-size: .75em;
     padding-bottom: 3px;
 }
+.other-topics::placeholder {
+    text-align: left;
 
+}
 ::placeholder {
     text-align: left;
     font-size: 1em;
