@@ -316,9 +316,8 @@ hr.style2 {
 }
 .form-field-zip {
     display: inline-flex;
-    width: 65%;
+    width: 100%;
     margin: .5rem 0 0 1em;
-    padding-right: 12em;
     font-size: .75em;
 }
 .contact-form input, textarea {
