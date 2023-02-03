@@ -334,6 +334,7 @@ hr.style2 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     font-size: 1.25em;
+    align-items: stretch;
 
 }
 #state {
@@ -349,7 +350,6 @@ hr.style2 {
 }
 #zip {
     width: 25%;
-    margin-right: 15.5em;
 }
     
 .bar {
