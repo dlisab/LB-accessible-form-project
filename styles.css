@@ -316,7 +316,7 @@ hr.style2 {
 }
 .form-field-zip {
     display: inline-flex;
-    width: 100%;
+    width: 66%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
     margin-right: 22em;
