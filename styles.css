@@ -350,6 +350,7 @@ hr.style2 {
 }
 #zip {
     width: 25%;
+    display: inline-flex;
 }
     
 .bar {
