@@ -5,7 +5,7 @@
   mobile view 320
 ==================================== */
 * {
-
+    margin: 0;
     padding: 0 0px;
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
@@ -358,7 +358,7 @@ hr.style2 {
     margin: 8px 0 8px 0;
     padding: 20px 8px 20px 8px; 
     font-size: .75em;
-    color:#E7F2FD;
+    color: #000;
     background: #EFF3F8; 
     border:none;
     border-radius: 5px;
@@ -374,6 +374,6 @@ hr.style2 {
 }
 .copyright {
     color: #ffffff;
-    padding-top: 3px;
+    padding-top: 22px;
 }
 }
