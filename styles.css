@@ -186,11 +186,9 @@ form {
   select#state input:active {
     background-color: rgb(251, 238, 238);
     transition: background-color 0.5s ease;
-    
   }
-  #name::placeholder,
-  #email::placeholder {
-    text-align: right;
+  #othertopics::placeholder{ 
+    text-align: left;
   }       
 input[type="radio"],
 input[type="checkbox"] {
