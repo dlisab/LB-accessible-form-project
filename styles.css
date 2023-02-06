@@ -10,7 +10,10 @@
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
 
+} index.html {
+    width: 104%;
 }
+
 .contact {
     padding-left: 10px;
     padding-right: 10px;
@@ -371,9 +374,10 @@ hr.style2 {
 .bar {
     background-color:#59837A;
     padding-bottom: 1em;
+    width: 1045;
 }
 .copyright {
     color: #ffffff;
-    padding-top: 22px;
+    padding-top: 28px;
 }
 }
