@@ -154,6 +154,7 @@ form {
     border:none;
     border-radius: 5px;
     padding: 0.75em;
+    margin-right: 16em;
 }
 .contact-form input:hover {
     background-color: #dfdddd;
@@ -226,7 +227,7 @@ placeholder::other-topics {
     width: 66%;
     margin: .5rem 0 0 1em;
     font-size: .75em;
-    margin-right: 22em;
+    
 }
 #state {
     display: block; 
