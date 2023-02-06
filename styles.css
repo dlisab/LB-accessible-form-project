@@ -157,7 +157,6 @@ form {
     border-radius: 5px;
     padding: 0.75em;
     margin-right: 16em;
-    text-align: right;
 }
 .contact-form input:hover {
     background-color: #dfdddd;
@@ -187,10 +186,16 @@ form {
   select#state input:active {
     background-color: rgb(251, 238, 238);
     transition: background-color 0.5s ease;
+    
   }
-  #othertopics::placeholder{ 
-    text-align: left;
-  }       
+#name::placeholder,
+#email::placeholder
+#address::placeholder
+#telephone::placeholder
+#city::placeholder
+#zip::placeholder {
+  text-align: right;
+}       
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
