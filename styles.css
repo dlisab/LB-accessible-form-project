@@ -23,7 +23,7 @@ html {
 .container {
     max-width: 860px;
     margin: 0 auto;
-   
+    background-color: #59837A;
 }
 .title-container {
     background-color: #32414d;
@@ -34,10 +34,8 @@ html {
     color:white;
     font-weight: 600;
     font-size: 1.25em;
-    padding: 1em
-}
-.text-container {
-    background-color: #59837A;
+    padding: 1em;
+
 }
 .note {
     font-size: .5em;
@@ -318,15 +316,6 @@ hr.style2 {
     margin: 0 0 2em 0;
     padding-top: 5px;
     margin-bottom: 2em;
-}
-.container {
-    width: 104%
-}
-.text-container {
-    background-color: #59837A;
-    padding-top: 0.5em;
-    margin-top: -1px;
-    width: 104%;
 }
 .contact {
 	margin: 0 6em;
