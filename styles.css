@@ -212,11 +212,7 @@ label {
     font-size: .75em;
     padding-bottom: 3px;
 }
-::placeholder {
-    text-align: left;
-    font-size: 1em;
 
-}
 placeholder::other-topics {
     text-align: left;
     font-size: 1em;
