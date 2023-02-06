@@ -319,6 +319,9 @@ hr.style2 {
     padding-top: 5px;
     margin-bottom: 2em;
 }
+.container {
+    width: 100%
+}
 .text-container {
     background-color: #59837A;
     padding-top: 0.5em;
