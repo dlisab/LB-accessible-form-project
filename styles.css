@@ -317,6 +317,9 @@ hr.style2 {
     padding-top: 5px;
     margin-bottom: 2em;
 }
+.container {
+width: 104%;
+}
 .contact {
 	margin: 0 6em;
 }
