@@ -157,6 +157,7 @@ form {
     border-radius: 5px;
     padding: 0.75em;
     margin-right: 16em;
+    text-align: right;
 }
 .contact-form input:hover {
     background-color: #dfdddd;
