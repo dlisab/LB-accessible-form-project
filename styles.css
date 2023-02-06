@@ -271,6 +271,7 @@ textarea {
   .button:active {
     background-color: black;
     transition: none;
+    color: #ffffff;
   }
       
 .bar {
@@ -375,6 +376,6 @@ hr.style2 {
 }
 .copyright {
     color: #ffffff;
-    padding-top: 28px;
+    padding-top: 3px;
 }
 }
