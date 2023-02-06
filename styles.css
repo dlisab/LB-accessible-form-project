@@ -23,7 +23,7 @@ html {
 .container {
     max-width: 860px;
     margin: 0 auto;
-    background-color: #59837A;
+   
 }
 .title-container {
     background-color: #32414d;
@@ -35,6 +35,9 @@ html {
     font-weight: 600;
     font-size: 1.25em;
     padding: 1em
+}
+.text-container {
+    background-color: #59837A;
 }
 .note {
     font-size: .5em;
