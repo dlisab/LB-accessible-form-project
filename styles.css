@@ -189,10 +189,10 @@ form {
     
   }
 #name::placeholder,
-#email::placeholder
-#address::placeholder
-#telephone::placeholder
-#city::placeholder
+#email::placeholder,
+#address::placeholder,
+#telephone::placeholder,
+#city::placeholder,
 #zip::placeholder {
   text-align: right;
 }       
