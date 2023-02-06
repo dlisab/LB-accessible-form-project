@@ -212,8 +212,11 @@ label {
 ::placeholder {
     text-align: left;
     font-size: 1em;
-    text-align: right;
 
+}
+placeholder::other-topics {
+    text-align: left;
+    font-size: 1em;
 }
 #zip {
     width: 50%;
