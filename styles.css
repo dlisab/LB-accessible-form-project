@@ -276,13 +276,12 @@ textarea {
       
 .bar {
     background-color:#59837A;
-    padding-top: 1em;
     padding-bottom: 1em;
 
 }
 .copyright {
     color: #ffffff;
-    padding-top: 28px;
+    padding-top: 3px;
 }
 
 /* ---- Page Elements ---- */
@@ -371,7 +370,6 @@ hr.style2 {
 .bar {
     background-color:#59837A;
     padding-bottom: 1em;
-
 }
 .copyright {
     color: #ffffff;
