@@ -262,6 +262,7 @@ textarea {
     border: none;
     border-radius: 5px;
     width: 100%;
+    margin-top: 1em;
 }
 .button:hover {
     background-color: #004369;
