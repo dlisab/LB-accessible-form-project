@@ -223,10 +223,7 @@ placeholder::other-topics {
     width: 50%;
 }
 .form-field-zip {
-    display: inline-flex;
-    width: 66%;
-    margin: .5rem 0 0 1em;
-    font-size: .75em;
+    display: inline-block;
     
 }
 #state {
